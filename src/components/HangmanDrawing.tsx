@@ -1,4 +1,4 @@
-// BODY -
+// HANGMAN -
 const HEAD = (
   <div
     style={{
