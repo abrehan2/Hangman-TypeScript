@@ -1,0 +1,27 @@
+.parent {
+  width: 100%;
+  overflow: hidden;
+}
+
+.parent div {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.parent div .btn {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
